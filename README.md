@@ -1,5 +1,6 @@
 OctoPrint
 =========
+What I did was take the MrBeam fork of Octoprint (because I have a MrBeam, and I like it) - and modify it for pen plotting with an axidraw v3 clone.
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=foosel&url=https://github.com/foosel/OctoPrint&title=OctoPrint&language=&tags=github&category=software)
 
