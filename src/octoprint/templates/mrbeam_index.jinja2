@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title data-bind="text: title">Mr Beam</title>
+        <title data-bind="text: title">Mr Draw</title>
 
         <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}">
         <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='img/apple-touch-icon-114x114.png') }}">
@@ -16,7 +16,7 @@
 			<div class="container">
 				<div class="navbar-header brand" style="min-width: 272px;">
 					<a class="navbar-brand" href="#">
-						<img alt="Mr Beam Logo" src="{{ url_for('static', filename='img/mr-typo-red_x120.png') }}">
+						<img alt="Mr Draw Logo" src="{{ url_for('static', filename='img/mr-draw-red_x120.png') }}">
 					</a>
 				</div>
 				<!-- Navbar -->
@@ -58,7 +58,7 @@
 
 									<div id="control" class="accordion-inner" data-bind="visible: isReady() || isLocked() || isFlashing()">
 										<div data-bind="visible: isLocked ">
-											Mr Beam is in a locked state as it does not know its position.
+											Mr Draw is in a locked state as it does not know its position.
 											First remove any objects blocking the gantry's travel range.
 											Then do a homing cycle.
 											<div style='text-align: center; padding:.5em;'>
@@ -657,12 +657,10 @@
 							<div class="span4">
 								<ul class="focus_steps">
 									<li>1. Place your material on the working area</li>
-									<li>2. Move the laser over the material</li>
-									<li>3. Put on your safety glasses</li>
-									<li>4. Turn the laser safety switch to on</li>
-									<li>&RightArrow; Now enable the focus mode</li>
-									<li>5. Adjust the focus until the laser beam is as small as possible</li>
-									<li>&RightArrow; Disable the focus mode. </li>
+									<li>2. Move the pen over the material</li>
+									<li>&RightArrow; Now enable the pen calibration mode</li>
+									<li>5. Adjust the pen until it touches the paper</li>
+									<li>&RightArrow; Disable the pen calibration mode. </li>
 								</ul>
 								<div style="text-align:center">
 								<div class="btn-group" role="group" aria-label="focus mode control" style="">
